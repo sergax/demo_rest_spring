@@ -1,5 +1,6 @@
 package com.example.demo.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -26,6 +27,6 @@ public class Employee {
 
     public Employee(String name, String role) {
         this.name = name;
-        this.role= role;
+        this.role = role;
     }
 }
