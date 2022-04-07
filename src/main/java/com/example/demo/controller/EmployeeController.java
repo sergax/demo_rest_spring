@@ -25,8 +25,8 @@ public class EmployeeController {
     private final EmployeeRepository repository;
     private final EmployeeModelAssembler assembler;
 
-    public EmployeeController(EmployeeRepository repository,
-                              EmployeeModelAssembler assembler) {
+    private EmployeeController(EmployeeRepository repository,
+                               EmployeeModelAssembler assembler) {
         this.repository = repository;
         this.assembler = assembler;
     }
