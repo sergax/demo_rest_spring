@@ -25,6 +25,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
  * by Aksenchenko Serhii on 06.04.2022
  */
 
+@RestController
 public class OrderController {
     private final OrderRepository orderRepository;
     private final OrderModelAssembler assembler;
